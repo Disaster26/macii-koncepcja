@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow" data-podglad>
+<title>Skup i złomowanie samochodów Poniec - MACII Stacja Demontażu Pojazdów</title>
+<meta name="description" content="Stacja demontażu pojazdów MACII w Śmiłowie koło Ponieca: skup i złomowanie aut, zaświadczenie do wyrejestrowania, demontaż i sprzedaż używanych części. Tel. 733 70 70 70.">
+<meta name="theme-color" content="#16181A">
+<link rel="preload" href="fonts/archivo-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="img/plac-3-480.webp" imagesrcset="img/plac-3-480.webp 480w, img/plac-3.webp 800w" imagesizes="(min-width:900px) 25vw, 50vw" fetchpriority="high">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2316181A'/%3E%3Crect x='10' y='7' width='4' height='18' rx='2' fill='%23FF9C00'/%3E%3Crect x='18' y='7' width='4' height='18' rx='2' fill='%23FF9C00'/%3E%3C/svg%3E">
+<style>
+@font-face{font-family:"Archivo";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/archivo-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013,U+2018-2019,U+201C-201E,U+2026}
+@font-face{font-family:"Archivo";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/archivo-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+:root{--or:#FF9C00;--or2:#E88A00;--ink:#16181A;--ink2:#22262A;--txt:#2A2E33;--mut:#5A6068;--g:#EEF0F2;--line:#D9DDE2;--hh:64px;--w:min(calc(100vw - 32px),1280px)}
+@media (min-width:900px){:root{--hh:80px;--w:min(calc(100vw - 64px),1280px)}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;font:17px/1.6 "Archivo",Arial,sans-serif;color:var(--txt);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{font-weight:800;line-height:1.1;color:var(--ink);margin:0;letter-spacing:-.01em}
+.in{width:var(--w);margin:0 auto}
+/* znak "ii" z logo */
+.ii{display:inline-flex;gap:5px;flex:none;vertical-align:middle}
+.ii::before,.ii::after{content:"";width:6px;height:1em;border-radius:3px;background:var(--or)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 22px;font:700 17px/1 "Archivo",Arial,sans-serif;text-decoration:none;border-radius:6px;border:2px solid transparent;cursor:pointer;white-space:nowrap;transition:background .15s,color .15s,border-color .15s}
+.btn-or{background:var(--or);color:var(--ink)}
+.btn-or:hover{background:#FFB233}
+.btn-line{border-color:rgba(255,255,255,.55);color:#fff}
+.btn-line:hover{border-color:#fff;background:rgba(255,255,255,.08)}
+.btn svg{width:18px;height:18px}
+/* nagłówek */
+.top{position:sticky;top:0;z-index:20;background:var(--ink);height:var(--hh);border-bottom:1px solid rgba(255,255,255,.08)}
+.top .in{height:100%;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff}
+.logo svg{height:38px;width:auto}
+@media (min-width:900px){.logo svg{height:46px}}
+.logo small{display:none;font-size:12px;line-height:1.25;color:#B9BEC4;max-width:130px}
+@media (min-width:1100px){.logo small{display:block}}
+.menu{display:none;gap:28px;font-weight:600;font-size:16px}
+.menu a{text-decoration:none;color:#D5D9DE;padding:6px 0;border-bottom:2px solid transparent}
+.menu a:hover{color:#fff}
+.menu a.on{color:#fff;border-color:var(--or)}
+@media (min-width:900px){.menu{display:flex}}
+.top-tel{display:none}
+@media (min-width:900px){.top-tel{display:inline-flex;min-height:46px}}
+.burger{width:46px;height:46px;border:0;background:transparent;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:6px;cursor:pointer}
+.burger span{width:24px;height:2px;background:#fff;border-radius:2px;transition:transform .2s,opacity .2s}
+.burger[aria-expanded=true] span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+.burger[aria-expanded=true] span:nth-child(2){opacity:0}
+.burger[aria-expanded=true] span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+@media (min-width:900px){.burger{display:none}}
+.mob{position:fixed;inset:var(--hh) 0 auto 0;background:var(--ink);padding:8px 16px 24px;display:none;z-index:19;border-bottom:3px solid var(--or)}
+.mob.open{display:block}
+.mob a{display:block;color:#fff;text-decoration:none;font-size:20px;font-weight:700;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.1)}
+.mob .btn{margin-top:18px;width:100%;border:0}
+/* pierwszy ekran */
+.hero{position:relative;background:var(--ink);color:#fff;overflow:hidden}
+.mozaika{display:grid;grid-template-columns:repeat(2,1fr);grid-template-rows:1fr 1fr;gap:3px;height:31svh;min-height:180px;overflow:hidden}
+.mozaika img{width:100%;height:100%;min-height:0;object-fit:cover}
+.mozaika img:nth-child(n+5){display:none}
+.hero-txt{position:relative;padding:22px 0 26px}
+.hero h1{color:#fff;font-size:clamp(29px,8.2vw,40px)}
+.hero h1 span{display:block;font-weight:600;font-size:.58em;line-height:1.25;color:#E6E8EB;margin-top:10px;letter-spacing:0}
+.hero p{margin:14px 0 0;color:#C9CED4;font-size:16px;line-height:1.5;max-width:560px}
+.hero .cta{display:flex;gap:10px;margin-top:24px}
+.hero .cta .btn{flex:1 1 0;padding:0 12px}
+@media (max-height:700px) and (max-width:899px){.mozaika{height:26svh}.hero-txt{padding-top:18px}.hero p{font-size:15px}}
+@media (min-width:600px) and (max-width:899px){.mozaika{grid-template-columns:repeat(3,1fr)}.mozaika img:nth-child(n+5){display:block}.mozaika img:nth-child(n+7){display:none}.hero .cta .btn{flex:0 0 auto;padding:0 22px}}
+@media (min-width:900px){
+ .hero{min-height:calc(2 * (100vw / 4) * .661)}
+ .mozaika{position:absolute;inset:0;height:auto;grid-template-columns:repeat(4,1fr);grid-auto-rows:calc((100vw / 4) * .661);gap:3px}
+ .mozaika img:nth-child(n){display:block}
+ .mozaika img:nth-child(n+9){display:none}
+ .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,15,17,.93) 0%,rgba(14,15,17,.84) 36%,rgba(14,15,17,.35) 68%,rgba(14,15,17,.15) 100%)}
+ .hero-txt{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;justify-content:center;padding:40px 0}
+ .hero-txt .in>div{max-width:720px}
+ .hero h1{font-size:clamp(40px,3.3vw,58px)}
+ .hero p{font-size:19px;margin-top:20px}
+ .hero .cta{margin-top:32px}
+ .hero .cta .btn{flex:0 0 auto;padding:0 26px;min-height:56px}
+}
+@media (min-width:900px) and (max-width:1199px){.mozaika{grid-template-columns:repeat(3,1fr);grid-auto-rows:calc((100vw / 3) * .661)}.hero{min-height:calc(2 * (100vw / 3) * .661)}.mozaika img:nth-child(n+7){display:none}}
+/* fakty */
+.fakty{background:var(--or);color:var(--ink)}
+.fakty ul{list-style:none;margin:0 auto;padding:18px 0;display:grid;grid-template-columns:1fr 1fr;gap:12px 20px}
+.fakty li{font-weight:700;font-size:15px;line-height:1.3;display:flex;gap:10px;align-items:flex-start}
+.fakty li::before{content:"";flex:none;width:4px;height:1.3em;background:var(--ink);border-radius:2px;box-shadow:7px 0 0 var(--ink);margin-right:8px}
+@media (min-width:900px){.fakty ul{grid-template-columns:repeat(4,1fr);padding:22px 0}.fakty li{font-size:17px}}
+/* sekcje */
+section{padding:64px 0}
+@media (min-width:900px){section{padding:96px 0}}
+.szary{background:var(--g)}
+.h2{display:flex;align-items:center;gap:14px;font-size:clamp(28px,6.5vw,44px)}
+.h2 .ii::before,.h2 .ii::after{height:.82em}
+.lead{max-width:680px;color:var(--mut);margin:16px 0 0;font-size:18px}
+/* oferta */
+.karty{display:grid;gap:20px;margin-top:36px}
+@media (min-width:900px){.karty{grid-template-columns:repeat(3,1fr);gap:28px;margin-top:48px}}
+.karta{background:#fff;border:1px solid var(--line);border-radius:28px 28px 6px 6px;overflow:hidden;display:flex;flex-direction:column}
+.karta img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:28px 28px 0 0}
+.karta div{padding:22px 22px 26px;display:flex;flex-direction:column;flex:1}
+.karta h3{font-size:24px}
+.karta p{margin:10px 0 0;color:var(--mut);font-size:16px}
+.karta ul{margin:14px 0 0;padding:0;list-style:none;font-size:15px;font-weight:600;color:var(--ink)}
+.karta li{padding:6px 0;border-top:1px solid var(--line)}
+@media (min-width:600px) and (max-width:899px){.karta{flex-direction:row;border-radius:28px 6px 6px 28px}.karta img{width:45%;height:auto;align-self:stretch;aspect-ratio:auto;object-fit:cover;border-radius:28px 0 0 28px}}
+/* kroki */
+.kroki{list-style:none;margin:40px 0 0;padding:0;display:grid;gap:14px;counter-reset:k}
+@media (min-width:700px){.kroki{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1100px){.kroki{grid-template-columns:repeat(4,1fr);gap:0}}
+.kroki li{counter-increment:k;background:#fff;padding:24px 22px;border-radius:6px;position:relative}
+@media (min-width:1100px){.kroki li{border-radius:0;border-right:1px solid var(--line)}.kroki li:first-child{border-radius:6px 0 0 6px}.kroki li:last-child{border-radius:0 6px 6px 0;border-right:0}}
+.kroki li::before{content:"0" counter(k);display:block;font-size:44px;font-weight:800;line-height:1;color:var(--ink);padding-left:22px;background:linear-gradient(var(--or),var(--or)) 0 4px/6px 34px no-repeat,linear-gradient(var(--or),var(--or)) 10px 4px/6px 34px no-repeat;margin-bottom:14px}
+.kroki h3{font-size:20px}
+.kroki p{margin:8px 0 0;color:var(--mut);font-size:16px}
+/* galeria */
+.gal-wrap{position:relative;margin-top:36px}
+.galeria{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 16px 8px;scrollbar-width:none;cursor:grab}
+.galeria::-webkit-scrollbar{display:none}
+.galeria.drag{cursor:grabbing;scroll-snap-type:none}
+.galeria figure{flex:0 0 82%;max-width:560px;margin:0;scroll-snap-align:center}
+.galeria img{width:100%;aspect-ratio:800/529;object-fit:cover;border-radius:6px;user-select:none;-webkit-user-drag:none}
+@media (min-width:900px){.galeria{padding:0 calc((100vw - var(--w)) / 2) 8px;scroll-padding:0 calc((100vw - var(--w)) / 2)}.galeria figure{flex-basis:520px;scroll-snap-align:start}}
+.gal-nav{display:flex;gap:10px;justify-content:flex-end;margin-top:16px}
+.gal-nav button{width:52px;height:52px;border-radius:6px;border:2px solid var(--ink);background:#fff;cursor:pointer;display:grid;place-items:center}
+.gal-nav button:hover{background:var(--ink);color:#fff}
+.gal-nav svg{width:20px;height:20px}
+/* części - ciemna */
+.czesci{background:var(--ink);color:#C9CED4}
+.czesci .h2{color:#fff}
+.czesci-grid{display:grid;gap:32px}
+@media (min-width:900px){.czesci-grid{grid-template-columns:1.05fr 1fr;gap:64px;align-items:center}}
+.czesci img{width:100%;max-width:800px;border-radius:28px 28px 6px 6px}
+.czesci .lead{color:#AEB4BB}
+.lista{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0 0;padding:0;list-style:none}
+.lista li{border:1px solid rgba(255,255,255,.2);border-radius:4px;padding:8px 12px;font-size:15px;color:#fff;font-weight:600}
+.czesci .btn{margin-top:28px}
+/* kontakt */
+.kontakt-grid{display:grid;gap:28px;margin-top:36px}
+@media (min-width:900px){.kontakt-grid{grid-template-columns:1fr 1.1fr;gap:48px}}
+.dane{background:#fff;border-radius:6px;padding:26px 24px;border-top:6px solid var(--or)}
+.dane h3{font-size:22px}
+.dane p{margin:6px 0 0;color:var(--mut)}
+.tel{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 0;border-bottom:1px solid var(--line);text-decoration:none;font-weight:800;font-size:22px;color:var(--ink)}
+.tel small{font-weight:600;font-size:14px;color:var(--mut)}
+.tel:hover{color:var(--or2)}
+.dane .mail{display:inline-block;margin-top:16px;font-weight:700;color:var(--ink)}
+.mapa{margin-top:20px;border-radius:6px;overflow:hidden;background:#dfe3e7;aspect-ratio:16/10}
+.mapa iframe{width:100%;height:100%;border:0;display:block}
+form{background:#fff;border-radius:6px;padding:26px 24px;display:grid;gap:14px}
+form h3{font-size:22px}
+label{display:grid;gap:6px;font-weight:600;font-size:15px;color:var(--ink)}
+input,select,textarea{font:16px "Archivo",Arial,sans-serif;padding:13px 14px;border:1px solid #C3C9D0;border-radius:6px;background:#fff;color:var(--txt);width:100%}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--or);border-color:var(--or)}
+textarea{min-height:110px;resize:vertical}
+.dwa{display:grid;gap:14px}
+@media (min-width:600px){.dwa{grid-template-columns:1fr 1fr}}
+form .btn{width:100%;border:0}
+.zgoda{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:13px;color:var(--mut)}
+.zgoda input{width:20px;height:20px;flex:none;margin-top:2px}
+.ok{display:none;background:#E9F6EC;color:#1D5B2B;border-radius:6px;padding:12px 14px;font-weight:600}
+/* stopka */
+footer{background:#0F1012;color:#A9AFB6;padding:44px 0 28px;font-size:15px}
+.st{display:grid;grid-template-columns:1fr 1fr;gap:24px 20px}
+@media (min-width:900px){.st{grid-template-columns:1.4fr 1fr 1fr 1fr}}
+.st .firma{grid-column:1/-1}
+@media (min-width:900px){.st .firma{grid-column:auto}}
+footer h4{color:#fff;margin:0 0 10px;font-size:15px}
+footer a{text-decoration:none;color:#A9AFB6}
+footer a:hover{color:#fff}
+footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.st-dol{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;border-top:1px solid rgba(255,255,255,.1);margin-top:32px;padding-top:20px;font-size:14px}
+/* pasek na telefonie po przewinięciu */
+.pasek{position:fixed;left:0;right:0;bottom:0;z-index:15;display:flex;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:var(--ink);transform:translateY(110%);transition:transform .25s}
+.pasek.show{transform:none}
+.pasek .btn{flex:1;min-height:48px;font-size:16px}
+@media (min-width:900px){.pasek{display:none}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.pasek{transition:none}}
+</style>
+<style>
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+</style>
+</head>
+<body>
+<header class="top">
+ <div class="in">
+  <a class="logo" href="#" aria-label="MACII - strona główna">
+   <svg viewBox="0 0 146 80" role="img" aria-label="MACII"><path d="M10 50V27a12 12 0 0 1 24 0v23M34 27a12 12 0 0 1 24 0v23" fill="none" stroke="#FF9C00" stroke-width="9" stroke-linecap="round"/><text x="64" y="50" fill="#fff" font-family="Archivo,Arial,sans-serif" font-weight="600" font-size="36">ac</text><rect x="114" y="18" width="9" height="44" rx="4.5" fill="#FF9C00"/><rect x="130" y="18" width="9" height="44" rx="4.5" fill="#FF9C00"/></svg>
+   <small>Stacja Demontażu Pojazdów</small>
+  </a>
+  <nav class="menu" aria-label="Menu">
+   <a href="#" class="on">Strona główna</a><a href="#oferta">Oferta</a><a href="#czesci">Części</a><a href="#galeria">Galeria</a><a href="#kontakt">Kontakt</a>
+  </nav>
+  <a class="btn btn-or top-tel" href="tel:+48733707070"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h3l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v3a3 3 0 0 1-3 3A16 16 0 0 1 3 6a3 3 0 0 1 3-3z"/></svg>733 70 70 70</a>
+  <button class="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="mob"><span></span><span></span><span></span></button>
+ </div>
+</header>
+<nav class="mob" id="mob" aria-label="Menu mobilne">
+ <a href="#oferta">Oferta</a><a href="#jak">Jak to wygląda</a><a href="#czesci">Części używane</a><a href="#galeria">Galeria</a><a href="#kontakt">Kontakt</a>
+ <a class="btn btn-or" href="tel:+48733707070">Zadzwoń: 733 70 70 70</a>
+</nav>
+
+<main>
+<section class="hero" style="padding:0" aria-label="Skup i złomowanie samochodów">
+ <div class="mozaika" aria-hidden="true">
+  <img src="img/plac-3-480.webp" srcset="img/plac-3-480.webp 480w, img/plac-3.webp 800w" sizes="(min-width:1200px) 25vw, (min-width:900px) 33vw, 50vw" width="800" height="529" alt="" fetchpriority="high">
+  <img src="img/plac-1-480.webp" srcset="img/plac-1-480.webp 480w, img/plac-1.webp 800w" sizes="(min-width:1200px) 25vw, (min-width:900px) 33vw, 50vw" width="800" height="529" alt="">
+  <img src="img/plac-6-480.webp" srcset="img/plac-6-480.webp 480w, img/plac-6.webp 800w" sizes="(min-width:1200px) 25vw, (min-width:900px) 33vw, 50vw" width="800" height="529" alt="">
+  <img src="img/plac-4-480.webp" srcset="img/plac-4-480.webp 480w, img/plac-4.webp 800w" sizes="(min-width:1200px) 25vw, (min-width:900px) 33vw, 50vw" width="800" height="529" alt="">
+  <img src="img/plac-2-480.webp" srcset="img/plac-2-480.webp 480w, img/plac-2.webp 800w" sizes="(min-width:1200px) 25vw, (min-width:900px) 33vw, 50vw" width="800" height="529" alt="">
+  <img src="img/plac-8-480.webp" srcset="img/plac-8-480.webp 480w, img/plac-8.webp 800w" sizes="(min-width:1200px) 25vw, (min-width:900px) 33vw, 50vw" width="800" height="529" alt="">
+  <img src="img/plac-5-480.webp" srcset="img/plac-5-480.webp 480w, img/plac-5.webp 800w" sizes="(min-width:1200px) 25vw, 33vw" width="800" height="529" alt="" loading="lazy">
+  <img src="img/plac-7-480.webp" srcset="img/plac-7-480.webp 480w, img/plac-7.webp 800w" sizes="(min-width:1200px) 25vw, 33vw" width="800" height="529" alt="" loading="lazy">
+ </div>
+ <div class="hero-txt">
+  <div class="in"><div>
+   <h1>Skup i złomowanie samochodów w Pońcu<span>Stare auto kończy u nas drogę legalnie, a sprawne części jadą dalej.</span></h1>
+   <p>Stacja demontażu pojazdów w Śmiłowie. Wyceniamy auto, odbieramy je własną lawetą i wystawiamy zaświadczenie do wyrejestrowania.</p>
+   <div class="cta">
+    <a class="btn btn-or" href="tel:+48733707070"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h3l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v3a3 3 0 0 1-3 3A16 16 0 0 1 3 6a3 3 0 0 1 3-3z"/></svg>Zadzwoń</a>
+    <a class="btn btn-line" href="#kontakt">Wyceń auto</a>
+   </div>
+  </div></div>
+ </div>
+</section>
+
+<div class="fakty">
+ <ul class="in">
+  <li>Działamy od 2011 roku</li>
+  <li>Własna laweta</li>
+  <li>Zaświadczenie do wyrejestrowania</li>
+  <li>Osobowe, ciężarowe, busy, maszyny rolnicze</li>
+ </ul>
+</div>
+
+<section id="oferta">
+ <div class="in">
+  <h2 class="h2"><span class="ii" aria-hidden="true"></span>Co robimy</h2>
+  <p class="lead">Rozbieramy samochody osobowe, ciężarowe, busy, motocykle i maszyny rolnicze. Wszystko zgodnie z ustawą o recyklingu pojazdów.</p>
+  <div class="karty">
+   <article class="karta">
+    <img src="img/plac-2-480.webp" srcset="img/plac-2-480.webp 480w, img/plac-2.webp 800w" sizes="(min-width:900px) 400px, calc(100vw - 32px)" width="800" height="529" alt="Samochody przyjęte do złomowania na placu MACII" loading="lazy">
+    <div>
+     <h3>Złomowanie</h3>
+     <p>Auto po kolizji, z poważną usterką albo takie, za które OC kosztuje więcej, niż jest warte. Wyceniamy je uczciwie i płacimy gotówką.</p>
+     <ul><li>Zaświadczenie o demontażu do urzędu</li><li>Odbiór własną lawetą</li></ul>
+    </div>
+   </article>
+   <article class="karta">
+    <img src="img/demontaz-480.webp" srcset="img/demontaz-480.webp 480w, img/demontaz.webp 800w" sizes="(min-width:900px) 400px, calc(100vw - 32px)" width="800" height="533" alt="Stanowisko demontażu pojazdów" loading="lazy">
+    <div>
+     <h3>Demontaż pojazdów</h3>
+     <p>Rozbieramy auto na części, odzyskujemy sprawne podzespoły, a oleje, płyny, plastik, szkło i metal segregujemy do dalszego przerobu.</p>
+     <ul><li>Bez ryzyka mandatu za samodzielną rozbiórkę</li><li>Mniej odpadów w środowisku</li></ul>
+    </div>
+   </article>
+   <article class="karta">
+    <img src="img/czesci-480.webp" srcset="img/czesci-480.webp 480w, img/czesci.webp 800w" sizes="(min-width:900px) 400px, calc(100vw - 32px)" width="800" height="533" alt="Używane części samochodowe" loading="lazy">
+    <div>
+     <h3>Sprzedaż części</h3>
+     <p>Oryginalne części z demontażu, sprawdzone i gotowe do montażu. Można je obejrzeć na miejscu przed zakupem.</p>
+     <ul><li>Wszystkie marki i modele</li><li>Dział części: 570 572 522</li></ul>
+    </div>
+   </article>
+  </div>
+ </div>
+</section>
+
+<section id="jak" class="szary">
+ <div class="in">
+  <h2 class="h2"><span class="ii" aria-hidden="true"></span>Jak wygląda złomowanie</h2>
+  <p class="lead">Od telefonu do zaświadczenia, bez załatwiania niczego na własną rękę.</p>
+  <ol class="kroki">
+   <li><h3>Telefon</h3><p>Dzwonisz pod 733 70 70 70 i mówisz, jakie to auto i w jakim jest stanie.</p></li>
+   <li><h3>Wycena</h3><p>Podajemy kwotę i umawiamy termin. Przywozisz auto albo przyjeżdżamy po nie lawetą.</p></li>
+   <li><h3>Demontaż</h3><p>Pojazd trafia na stację, gdzie rozbieramy go zgodnie z przepisami.</p></li>
+   <li><h3>Zaświadczenie</h3><p>Dostajesz pieniądze i zaświadczenie, z którym wyrejestrujesz auto w urzędzie.</p></li>
+  </ol>
+ </div>
+</section>
+
+<section id="galeria">
+ <div class="in">
+  <h2 class="h2"><span class="ii" aria-hidden="true"></span>Nasz plac</h2>
+  <p class="lead">Tak wygląda codzienna praca w Śmiłowie: auta przyjęte do demontażu, nasz sprzęt i efekty recyklingu.</p>
+ </div>
+ <div class="gal-wrap">
+  <div class="galeria" id="gal">
+   <figure><img src="img/plac-1-480.webp" srcset="img/plac-1-480.webp 480w, img/plac-1.webp 800w" sizes="(min-width:900px) 520px, 82vw" width="800" height="529" alt="Samochody na placu stacji demontażu" loading="lazy"></figure>
+   <figure><img src="img/plac-3-480.webp" srcset="img/plac-3-480.webp 480w, img/plac-3.webp 800w" sizes="(min-width:900px) 520px, 82vw" width="800" height="529" alt="Dźwig przenoszący karoserie" loading="lazy"></figure>
+   <figure><img src="img/plac-7-480.webp" srcset="img/plac-7-480.webp 480w, img/plac-7.webp 800w" sizes="(min-width:900px) 520px, 82vw" width="800" height="529" alt="Samochód - nagroda główna w loterii MACII" loading="lazy"></figure>
+   <figure><img src="img/plac-4-480.webp" srcset="img/plac-4-480.webp 480w, img/plac-4.webp 800w" sizes="(min-width:900px) 520px, 82vw" width="800" height="529" alt="Auta osobowe i autobus przyjęte do demontażu" loading="lazy"></figure>
+   <figure><img src="img/plac-6-480.webp" srcset="img/plac-6-480.webp 480w, img/plac-6.webp 800w" sizes="(min-width:900px) 520px, 82vw" width="800" height="529" alt="Pojazdy przygotowane do demontażu" loading="lazy"></figure>
+   <figure><img src="img/plac-8-480.webp" srcset="img/plac-8-480.webp 480w, img/plac-8.webp 800w" sizes="(min-width:900px) 520px, 82vw" width="800" height="529" alt="Samochody na placu w Śmiłowie" loading="lazy"></figure>
+   <figure><img src="img/plac-5-480.webp" srcset="img/plac-5-480.webp 480w, img/plac-5.webp 800w" sizes="(min-width:900px) 520px, 82vw" width="800" height="529" alt="Samochody osobowe przed demontażem" loading="lazy"></figure>
+   <figure><img src="img/plac-2-480.webp" srcset="img/plac-2-480.webp 480w, img/plac-2.webp 800w" sizes="(min-width:900px) 520px, 82vw" width="800" height="529" alt="Pojazdy i przyczepa na placu" loading="lazy"></figure>
+  </div>
+  <div class="in gal-nav">
+   <button type="button" data-k="-1" aria-label="Poprzednie zdjęcie"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+   <button type="button" data-k="1" aria-label="Następne zdjęcie"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+  </div>
+ </div>
+</section>
+
+<section id="czesci" class="czesci">
+ <div class="in czesci-grid">
+  <img src="img/plac-5-480.webp" srcset="img/plac-5-480.webp 480w, img/plac-5.webp 800w" sizes="(min-width:900px) 600px, calc(100vw - 32px)" width="800" height="529" alt="Samochody, z których odzyskujemy części" loading="lazy">
+  <div>
+   <h2 class="h2"><span class="ii" aria-hidden="true"></span>Części używane</h2>
+   <p class="lead">Z aut, które do nas trafiają, odzyskujemy sprawne podzespoły. Sprzedajemy je klientom prywatnym i firmom z flotą, a nasz pracownik pomoże dobrać właściwą część.</p>
+   <ul class="lista">
+    <li>Blacharka i karoseria</li><li>Skrzynie biegów</li><li>Zawieszenie</li><li>Układy wydechowe</li><li>Układy hamulcowe</li><li>Elektronika</li><li>Koła</li><li>Lampy i oświetlenie</li><li>Szyby</li><li>Fotele i kanapy</li>
+   </ul>
+   <a class="btn btn-or" href="tel:+48570572522">Dział części: 570 572 522</a>
+  </div>
+ </div>
+</section>
+
+<section id="kontakt" class="szary">
+ <div class="in">
+  <h2 class="h2"><span class="ii" aria-hidden="true"></span>Kontakt i wycena</h2>
+  <p class="lead">Zapraszamy osoby prywatne i firmy z całej Wielkopolski. Najszybciej wycenimy auto przez telefon.</p>
+  <div class="kontakt-grid">
+   <div>
+    <div class="dane">
+     <h3>MACII Stacja Demontażu Pojazdów</h3>
+     <p>Śmiłowo 29E, 64-125 Poniec</p>
+     <a class="tel" href="tel:+48733707070">733 70 70 70 <small>skup i złomowanie</small></a>
+     <a class="tel" href="tel:+48695061826">695 061 826 <small>skup i złomowanie</small></a>
+     <a class="tel" href="tel:+48570572522">570 572 522 <small>części</small></a>
+     <a class="mail" href="mailto:macii108@vp.pl">macii108@vp.pl</a>
+    </div>
+    <div class="mapa" id="mapa" data-src="https://maps.google.com/maps?q=%C5%9Ami%C5%82owo%2029E%2C%2064-125%20Poniec&amp;z=14&amp;output=embed"></div>
+   </div>
+   <form id="form" novalidate>
+    <h3>Zapytanie o wycenę</h3>
+    <div class="dwa">
+     <label>Imię i nazwisko<input name="imie" autocomplete="name" required></label>
+     <label>Telefon<input name="tel" type="tel" autocomplete="tel" required></label>
+    </div>
+    <label>Czego dotyczy
+     <select name="temat"><option>Złomowanie auta</option><option>Odbiór lawetą</option><option>Części używane</option><option>Inne</option></select>
+    </label>
+    <label>Marka, model, rok, stan pojazdu<textarea name="opis" placeholder="np. Opel Astra 2004, nie odpala, stoi w Gostyniu"></textarea></label>
+    <label class="zgoda"><input type="checkbox" required> Wyrażam zgodę na przetwarzanie moich danych w celu odpowiedzi na zapytanie.</label>
+    <button class="btn btn-or" type="submit">Wyślij zapytanie</button>
+    <p class="ok" id="ok">Dziękujemy. To podgląd strony, formularz zacznie wysyłać wiadomości po wdrożeniu.</p>
+   </form>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="in">
+  <div class="st">
+   <div class="firma">
+    <h4>"MACII" Stacja Demontażu Pojazdów Maciej Nowak</h4>
+    <p style="margin:0">Śmiłowo 29E, 64-125 Poniec<br>NIP 6961138375</p>
+   </div>
+   <div>
+    <h4>Oferta</h4>
+    <ul><li><a href="#oferta">Złomowanie</a></li><li><a href="#oferta">Demontaż pojazdów</a></li><li><a href="#czesci">Sprzedaż części</a></li></ul>
+   </div>
+   <div>
+    <h4>Telefon</h4>
+    <ul><li><a href="tel:+48733707070">733 70 70 70</a></li><li><a href="tel:+48695061826">695 061 826</a></li><li><a href="tel:+48570572522">570 572 522 (części)</a></li></ul>
+   </div>
+   <div>
+    <h4>Informacje</h4>
+    <ul><li><a href="https://www.macii-nowak.pl/images/design/pdf/regulamin-loterii.pdf" rel="noopener">Regulamin loterii</a></li><li><a href="#">Polityka prywatności</a></li><li><a href="#">Polityka cookies</a></li></ul>
+   </div>
+  </div>
+  <div class="st-dol">
+   <span>© 2026 MACII Stacja Demontażu Pojazdów</span>
+   <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=macii-nowak.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+  </div>
+ </div>
+</footer>
+
+<div class="pasek" id="pasek">
+ <a class="btn btn-or" href="tel:+48733707070">Zadzwoń 733 70 70 70</a>
+</div>
+
+<script>
+(function(){
+var b=document.querySelector('.burger'),m=document.getElementById('mob');
+b.addEventListener('click',function(){var o=m.classList.toggle('open');b.setAttribute('aria-expanded',o);b.setAttribute('aria-label',o?'Zamknij menu':'Otwórz menu')});
+m.addEventListener('click',function(e){if(e.target.tagName==='A'){m.classList.remove('open');b.setAttribute('aria-expanded','false')}});
+var g=document.getElementById('gal');
+document.querySelectorAll('.gal-nav button').forEach(function(x){x.addEventListener('click',function(){var f=g.querySelector('figure');g.scrollBy({left:(f.offsetWidth+12)*+x.dataset.k,behavior:'smooth'})})});
+var d=false,sx=0,sl=0,mv=0;
+g.addEventListener('pointerdown',function(e){if(e.pointerType!=='mouse')return;d=true;mv=0;sx=e.clientX;sl=g.scrollLeft;g.classList.add('drag');g.setPointerCapture(e.pointerId)});
+g.addEventListener('pointermove',function(e){if(!d)return;mv=Math.abs(e.clientX-sx);g.scrollLeft=sl-(e.clientX-sx)});
+function up(){if(!d)return;d=false;g.classList.remove('drag')}
+g.addEventListener('pointerup',up);g.addEventListener('pointercancel',up);
+var p=document.getElementById('pasek'),h=document.querySelector('.hero'),k=document.getElementById('kontakt');
+function sc(){var y=h.getBoundingClientRect().bottom<0,kk=k.getBoundingClientRect();p.classList.toggle('show',y&&!(kk.top<innerHeight&&kk.bottom>0))}
+addEventListener('scroll',sc,{passive:true});sc();
+var mp=document.getElementById('mapa');
+if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){if(es[0].isIntersecting){var f=document.createElement('iframe');f.src=mp.dataset.src;f.title='Mapa dojazdu: Śmiłowo 29E, Poniec';f.loading='lazy';f.referrerPolicy='no-referrer-when-downgrade';mp.appendChild(f);io.disconnect()}},{rootMargin:'300px'});io.observe(mp)}
+document.getElementById('form').addEventListener('submit',function(e){e.preventDefault();document.getElementById('ok').style.display='block'});
+})();
+</script>
+</body>
+</html>
